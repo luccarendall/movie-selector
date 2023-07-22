@@ -1,0 +1,67 @@
+/* Estilos para o componente MovieList */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #141414;
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .button-container {
+    margin: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 20px 30px;
+    background-color: #e50914;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o componente MovieCard */
+  .movie-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para tamanhos de fonte do título */
+  .small-title {
+    font-size: 16px;
+  }
+  
+  .medium-title {
+    font-size: 20px;
+  }
+  
+  .large-title {
+    font-size: 24px;
+  }
+  

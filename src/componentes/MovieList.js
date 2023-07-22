@@ -31,7 +31,7 @@ function MovieList() {
         </div>
       )}
       <div className="button-container">
-        <button onClick={handleRandomMovie}>Escolher Filme</button>
+        <button onClick={handleRandomMovie}>Sortear novo Filme</button>
       </div>
     </div>
   );

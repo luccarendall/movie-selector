@@ -1,83 +1,98 @@
 [
-    {
+  {
       "title": "12 Anos de Escravidão",
+      "genre": "Drama/Obra de Época",
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6RUTPOAB4rRlrRYFMGjvK6bm1x8.jpg",
       "link": "https://www.starplus.com/movies/12-years-a-slave/4jQ5LawAmDKA?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwTkQP6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=06010005-548c-4a40-be00-05b564bcc3cc&dclid=CNqsq5WVpIADFUmflQIdoYoDQA"
-    },
-    {
-      "title": "Pulp Fiction",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tptjnB2LDbuUWya9Cx5sQtv5hqb.jpg",
-      "link": "https://www.primevideo.com/dp/amzn1.dv.gti.b1100858-6ade-4ec7-a83a-96c72f7c935c?autoplay=0&ref_=atv_cf_strg_wb"
-    },
-    {
-      "title": "Into the Wild",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bv2od9QMVaojT9lI02Uk47Z40Ue.jpg",
-      "link": "https://www.primevideo.com/detail/0II5SB8U52B9H0QVHR75J9A956/ref=atv_dl_rdr?tag=justbrrsjd-20"
-    },
-    {
-      "title": "Jogo da Imitação",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hC9l38eILMm8FvY4g2rUqxXcs0f.jpg",
-      "link": "https://www.netflix.com/title/70295172"
-    },
-    {
-      "title": "História de um Casamento",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/LaZ5rwaMvVH20J8O2Nu9uuXGI5.jpg",
-      "link": "https://www.netflix.com/title/80223779"
-    },
-    {
-      "title": "Cidade dos Anjos",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iUcDXPGWNLqKkFmmcoK3uri6BjE.jpg",
-      "link": "https://play.hbomax.com/page/urn:hbo:page:GXmZ1WQqmf54_wwEAACrp:type:feature?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1101lwWKVQFU"
-    },
-    {
-      "title": "Kill Bill Vol. 1",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-      "link": "https://www.primevideo.com/detail/0G9TP9EWGUWT3IF22B5XNA2C41/ref=atv_dl_rdr?tag=justbrrsjd-20"
-    },
-    {
-      "title": "Kill Bill Vol. 2",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4niMDDzBOR1jf4jRshLRaG0Cuaz.jpg",
-      "link": "https://www.primevideo.com/detail/0P828UB4K23KFLSX6Y2DJSKTYJ/ref=atv_dl_rdr?tag=justbrrsjd-20"
-    },
-    {
-      "title": "O Grande Hotel Budapeste",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9bFFixCXZ53AKMpzbvygFVJ0ZLL.jpg",
-      "link": "https://www.starplus.com/pt-br/movies/the-grand-budapest-hotel/1RW10E8yCYDB?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwThzn6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=0701000d-81c9-426d-b800-0f1664bcc435&dclid=CM7uv8eVpIADFfeWlQIdUV8Oow"
-    },
-    {
-      "title": "O Quarto de Jack",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eiZgyhTMxUnzKutinMBfykoMLrm.jpg",
-      "link": "https://www.starplus.com/pt-br/movies/room/1ArGKiOml6oL?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwThz36SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=03010008-16ca-4148-a600-25f864bcc431&dclid=CIre1sWVpIADFX6GlQIdrBAF3Q"
-    },
-    {
-      "title": "Os Oito Odiados",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jfTo9U9OgOXODEEspNnYFuZdR1q.jpg",
-      "link": "https://play.hbomax.com/page/urn:hbo:page:GYGazlgvpD6mulwEAAAEB:type:feature?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1101lwWKVHrc"
-    },
-    {
-      "title": "Pequena Miss Sunshine",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gwLPVYqe1efIxkx6LQT7piZweH2.jpg",
-      "link": "https://www.starplus.com/pt-br/movies/little-miss-sunshine/4W4XRE08q1PV?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwThRO6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=0401001c-573e-4704-af00-11bb64bcc49a&dclid=COTi4feVpIADFRGklQIdnz4Bzw"
-    },
-    {
-      "title": "Sociedade dos Poetas Mortos",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gMmbJEqEzupp4BYTcRkNsPDPvQE.jpg",
-      "link": "https://www.starplus.com/pt-br/movies/dead-poets-society/67wLIb9Q3c3s?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwTh2m6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=07010030-81e3-4ffb-b200-12be64bcc424&dclid=CIfMnb-VpIADFZeWlQIdYz0MTA"
-    },
-    {
-      "title": "The Invasion",
-      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3zDDAOIi8fTnWsqkwfRCYGT3l0s.jpg",
-      "link": "https://play.hbomax.com/feature/urn:hbo:feature:GYXcN2waDx8PDwgEAAAHC?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1100lwWAUgWL"
-    },
-    {
+  },
+  {
       "title": "As Vantagens de Ser Invisível",
+      "genre": "Romance/Drama",
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pUYWbq0I6oCrysxuL0OCxwB8wFp.jpg",
       "link": "https://www.netflix.com/title/70243461"
-    },
-    {
+  },
+  {
       "title": "Canção de Volta",
+      "genre": "Drama",
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AgzrJyvAbAGEt2xLXIhditfcuMs.jpg",
       "link": "https://www.primevideo.com/detail/0OBD7M7K8YNR74SE804MM3Q01D/ref=atv_dl_rdr?tag=justbrrsjd-20"
-    }
-  ]
-  
+  },
+  {
+      "title": "Cidade dos Anjos",
+      "genre": "Romance/Fantasia",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iUcDXPGWNLqKkFmmcoK3uri6BjE.jpg",
+      "link": "https://play.hbomax.com/page/urn:hbo:page:GXmZ1WQqmf54_wwEAACrp:type:feature?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1101lwWKVQFU"
+  },
+  {
+      "title": "História de um Casamento",
+      "genre": "Drama/Romance",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/LaZ5rwaMvVH20J8O2Nu9uuXGI5.jpg",
+      "link": "https://www.netflix.com/title/80223779"
+  },
+  {
+      "title": "Into the Wild",
+      "genre": "Drama/Aventura",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bv2od9QMVaojT9lI02Uk47Z40Ue.jpg",
+      "link": "https://www.primevideo.com/detail/0II5SB8U52B9H0QVHR75J9A956/ref=atv_dl_rdr?tag=justbrrsjd-20"
+  },
+  {
+      "title": "Jogo da Imitação",
+      "genre": "Drama/Guerra",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hC9l38eILMm8FvY4g2rUqxXcs0f.jpg",
+      "link": "https://www.netflix.com/title/70295172"
+  },
+  {
+      "title": "Kill Bill Vol. 1",
+      "genre": "Ação/Crime",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+      "link": "https://www.primevideo.com/detail/0G9TP9EWGUWT3IF22B5XNA2C41/ref=atv_dl_rdr?tag=justbrrsjd-20"
+  },
+  {
+      "title": "Kill Bill Vol. 2",
+      "genre": "Ação/Artes marciais",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4niMDDzBOR1jf4jRshLRaG0Cuaz.jpg",
+      "link": "https://www.primevideo.com/detail/0P828UB4K23KFLSX6Y2DJSKTYJ/ref=atv_dl_rdr?tag=justbrrsjd-20"
+  },
+  {
+      "title": "O Grande Hotel Budapeste",
+      "genre": "Comédia/Drama",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9bFFixCXZ53AKMpzbvygFVJ0ZLL.jpg",
+      "link": "https://www.starplus.com/pt-br/movies/the-grand-budapest-hotel/1RW10E8yCYDB?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwThzn6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=0701000d-81c9-426d-b800-0f1664bcc435&dclid=CM7uv8eVpIADFfeWlQIdUV8Oow"
+  },
+  {
+      "title": "O Quarto de Jack",
+      "genre": "Drama/Thriller",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eiZgyhTMxUnzKutinMBfykoMLrm.jpg",
+      "link": "https://www.starplus.com/pt-br/movies/room/1ArGKiOml6oL?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwThz36SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=03010008-16ca-4148-a600-25f864bcc431&dclid=CIre1sWVpIADFX6GlQIdrBAF3Q"
+  },
+  {
+      "title": "Os Oito Odiados",
+      "genre": "Faroeste/Drama",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jfTo9U9OgOXODEEspNnYFuZdR1q.jpg",
+      "link": "https://play.hbomax.com/page/urn:hbo:page:GYGazlgvpD6mulwEAAAEB:type:feature?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1101lwWKVHrc"
+  },
+  {
+      "title": "Pequena Miss Sunshine",
+      "genre": "Comédia/Drama",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gwLPVYqe1efIxkx6LQT7piZweH2.jpg",
+      "link": "https://www.starplus.com/pt-br/movies/little-miss-sunshine/4W4XRE08q1PV?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwThRO6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=0401001c-573e-4704-af00-11bb64bcc49a&dclid=COTi4feVpIADFRGklQIdnz4Bzw"
+  },
+  {
+      "title": "Pulp Fiction",
+      "genre": "Crime/Drama ",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tptjnB2LDbuUWya9Cx5sQtv5hqb.jpg",
+      "link": "https://www.primevideo.com/dp/amzn1.dv.gti.b1100858-6ade-4ec7-a83a-96c72f7c935c?autoplay=0&ref_=atv_cf_strg_wb"
+  },
+  {
+      "title": "Sociedade dos Poetas Mortos",
+      "genre": "Drama/Adolescente",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gMmbJEqEzupp4BYTcRkNsPDPvQE.jpg",
+      "link": "https://www.starplus.com/pt-br/movies/dead-poets-society/67wLIb9Q3c3s?irclickid=wfLXnS2oCxyPTJky-Mw71xZ8UkFwTh2m6SQGTI0&irgwc=1&cid=DSS-Affiliate-Impact-Content-JustWatch+GmbH-1058017&tgclid=07010030-81e3-4ffb-b200-12be64bcc424&dclid=CIfMnb-VpIADFZeWlQIdYz0MTA"
+  },
+  {
+      "title": "The Invasion",
+      "genre": "Ficção científica/Thriller",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3zDDAOIi8fTnWsqkwfRCYGT3l0s.jpg",
+      "link": "https://play.hbomax.com/feature/urn:hbo:feature:GYXcN2waDx8PDwgEAAAHC?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1100lwWAUgWL"
+  }
+]

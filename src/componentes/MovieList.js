@@ -3,30 +3,29 @@ import filmesData from "./assets/filmes.json";
 import "./movieList.css";
 
 function MovieList() {
-  const [randomMovie, setRandomMovie] = useState(null);
+  const [selectedMovie, setSelectedMovie] = useState(null);
 
   const handleRandomMovie = () => {
     const randomIndex = Math.floor(Math.random() * filmesData.length);
-    setRandomMovie(filmesData[randomIndex]);
+    setSelectedMovie(filmesData[randomIndex]);
   };
 
   function getTitleSizeClass(title) {
-    if (title.length > 30) {
-      return "small-title";
-    } else if (title.length > 20) {
-      return "medium-title";
-    } else {
+    if (title.length > 26) {
       return "large-title";
+    } else {
+      return "normal-title";
     }
   }
 
   return (
     <div>
-      {randomMovie && (
+      {selectedMovie && (
         <div className="movie-card">
-          <h1 className={getTitleSizeClass(randomMovie.title)}>{randomMovie.title}</h1>
-          <a href={randomMovie.link} target="_blank" rel="noopener noreferrer">
-            <img src={randomMovie.image} alt={randomMovie.title} />
+          <h1 className={getTitleSizeClass(selectedMovie.title)}>{selectedMovie.title}</h1>
+          <p>{selectedMovie.genre}</p>
+          <a href={selectedMovie.link} target="_blank">
+            <img src={selectedMovie.image} alt={selectedMovie.title} />
           </a>
         </div>
       )}

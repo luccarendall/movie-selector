@@ -18,6 +18,15 @@ function MovieList() {
     }
   }
 
+  const verificar = () => {
+    if (document.visibilityState === 'hidden'){
+      document.title = 'Escolheu? Bom Filme 🍿'
+    } else {
+    document.title = 'Movie Selector'
+    }}
+
+  document.addEventListener('visibilitychange', verificar);
+
   return (
     <div>
       {selectedMovie && (

@@ -4,7 +4,7 @@ import "./movieList.css";
 
 function MovieList() {
   const [selectedMovie, setSelectedMovie] = useState(null);
-  const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState(filmesData);
   const [showAddForm, setShowAddForm] = useState(false);
   const [newMovie, setNewMovie] = useState({
     title: "",
@@ -13,19 +13,23 @@ function MovieList() {
     link: "#",
   });
 
-  // 🔹 Carrega os filmes do JSON + localStorage
+  // 🔹 Carrega filmes do localStorage quando o componente monta
   useEffect(() => {
-    const savedMovies = JSON.parse(localStorage.getItem("userMovies")) || [];
-    setMovies([...filmesData, ...savedMovies]);
+    const storedMovies = localStorage.getItem("userMovies");
+    if (storedMovies) {
+      setMovies([...filmesData, ...JSON.parse(storedMovies)]);
+    }
   }, []);
 
-  // 🔹 Função para sortear filme
   const handleRandomMovie = () => {
     const randomIndex = Math.floor(Math.random() * movies.length);
     setSelectedMovie(movies[randomIndex]);
   };
 
-  // 🔹 Função para mudar título da aba
+  const getTitleSizeClass = (title) =>
+    title.length > 26 ? "large-title" : "normal-title";
+
+  // 🔹 Atualiza o título da aba
   const verificar = () => {
     if (document.visibilityState === "hidden") {
       document.title = "Escolheu? Bom Filme 🍿";
@@ -33,42 +37,38 @@ function MovieList() {
       document.title = "Movie Selector";
     }
   };
+
   useEffect(() => {
     document.addEventListener("visibilitychange", verificar);
     return () => document.removeEventListener("visibilitychange", verificar);
   }, []);
 
-  // 🔹 Controla classes do título
-  function getTitleSizeClass(title) {
-    return title.length > 26 ? "large-title" : "normal-title";
-  }
-
   // 🔹 Atualiza valores dos inputs
-  const handleInputChange = (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setNewMovie({ ...newMovie, [name]: value });
   };
 
-  // 🔹 Salva novo filme no localStorage
+  // 🔹 Salva o novo filme no localStorage e atualiza lista
   const handleSaveMovie = () => {
     if (!newMovie.title || !newMovie.genre || !newMovie.image) {
-      alert("Preencha todos os campos antes de salvar!");
+      alert("Preencha todos os campos!");
       return;
     }
 
-    const updatedMovies = [...movies, newMovie];
-    setMovies(updatedMovies);
+    const updatedList = [...movies, newMovie];
+    setMovies(updatedList);
 
-    const userMovies = JSON.parse(localStorage.getItem("userMovies")) || [];
-    userMovies.push(newMovie);
-    localStorage.setItem("userMovies", JSON.stringify(userMovies));
+    const stored = JSON.parse(localStorage.getItem("userMovies")) || [];
+    stored.push(newMovie);
+    localStorage.setItem("userMovies", JSON.stringify(stored));
 
     setNewMovie({ title: "", genre: "", image: "", link: "#" });
     setShowAddForm(false);
   };
 
   return (
-    <div className="movie-container">
+    <div>
       {selectedMovie && (
         <div className="movie-card">
           <h1 className={getTitleSizeClass(selectedMovie.title)}>
@@ -82,9 +82,9 @@ function MovieList() {
       )}
 
       <div className="button-container">
-        <button onClick={handleRandomMovie}>🎲 Sortear novo Filme</button>
+        <button onClick={handleRandomMovie}>Sortear novo Filme</button>
         <button onClick={() => setShowAddForm(!showAddForm)}>
-          ➕ Adicionar Filme
+          {showAddForm ? "Cancelar" : "Adicionar Filme"}
         </button>
       </div>
 
@@ -96,14 +96,9 @@ function MovieList() {
             name="title"
             placeholder="Título do Filme"
             value={newMovie.title}
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
-
-          <select
-            name="genre"
-            value={newMovie.genre}
-            onChange={handleInputChange}
-          >
+          <select name="genre" value={newMovie.genre} onChange={handleChange}>
             <option value="">Selecione o gênero</option>
             <option value="Ação">Ação</option>
             <option value="Comédia">Comédia</option>
@@ -113,16 +108,14 @@ function MovieList() {
             <option value="Romance">Romance</option>
             <option value="Guerra">Guerra</option>
           </select>
-
           <input
             type="text"
             name="image"
-            placeholder="URL da Imagem da Capa"
+            placeholder="URL da imagem da capa"
             value={newMovie.image}
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
-
-          <button onClick={handleSaveMovie}>💾 Salvar Filme</button>
+          <button onClick={handleSaveMovie}>Salvar Filme</button>
         </div>
       )}
     </div>

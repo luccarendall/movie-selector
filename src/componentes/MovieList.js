@@ -13,43 +13,43 @@ function MovieList() {
     link: "#",
   });
 
-  // 🔹 Carrega os filmes do JSON + localStorage
+  // 🔹 Carrega filmes do JSON + localStorage
   useEffect(() => {
     const savedMovies = JSON.parse(localStorage.getItem("userMovies")) || [];
     setMovies([...filmesData, ...savedMovies]);
   }, []);
 
-  // 🔹 Função para sortear filme
+  // 🔹 Sorteia filme
   const handleRandomMovie = () => {
     const randomIndex = Math.floor(Math.random() * movies.length);
     setSelectedMovie(movies[randomIndex]);
   };
 
-  // 🔹 Função para mudar título da aba
+  // 🔹 Atualiza título da aba ao trocar de aba
   const verificar = () => {
-    if (document.visibilityState === "hidden") {
-      document.title = "Escolheu? Bom Filme 🍿";
-    } else {
-      document.title = "Movie Selector";
-    }
+    document.title =
+      document.visibilityState === "hidden"
+        ? "Escolheu? Bom Filme 🍿"
+        : "Movie Selector";
   };
+
   useEffect(() => {
     document.addEventListener("visibilitychange", verificar);
     return () => document.removeEventListener("visibilitychange", verificar);
   }, []);
 
-  // 🔹 Controla classes do título
+  // 🔹 Ajuste de tamanho do título
   function getTitleSizeClass(title) {
     return title.length > 26 ? "large-title" : "normal-title";
   }
 
-  // 🔹 Atualiza valores dos inputs
+  // 🔹 Atualiza inputs
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setNewMovie({ ...newMovie, [name]: value });
   };
 
-  // 🔹 Salva novo filme no localStorage
+  // 🔹 Salva filme no localStorage
   const handleSaveMovie = () => {
     if (!newMovie.title || !newMovie.genre || !newMovie.image) {
       alert("Preencha todos os campos antes de salvar!");
@@ -68,7 +68,7 @@ function MovieList() {
   };
 
   return (
-    <div className="movie-container">
+    <div>
       {selectedMovie && (
         <div className="movie-card">
           <h1 className={getTitleSizeClass(selectedMovie.title)}>
@@ -83,7 +83,7 @@ function MovieList() {
 
       <div className="button-container">
         <button onClick={handleRandomMovie}>🎲 Sortear novo Filme</button>
-        <button onClick={() => setShowAddForm(!showAddForm)}>
+        <button className="add-button" onClick={() => setShowAddForm(!showAddForm)}>
           ➕ Adicionar Filme
         </button>
       </div>
@@ -91,6 +91,7 @@ function MovieList() {
       {showAddForm && (
         <div className="add-form">
           <h2>Adicionar Novo Filme</h2>
+
           <input
             type="text"
             name="title"

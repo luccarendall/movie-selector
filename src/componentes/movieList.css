@@ -1,81 +1,128 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #141414;
-    margin: 0;
-    text-align: center;
-    font-size: 2em;
-  }
-  
-  .button-container {
-    margin: 20px;
-  }
-  
-  button {
-    font-size: 16px;
-    padding: 20px 30px;
-    background-color: #e50914;
-    font-weight: bold;
-    color: aliceblue;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  /* Estilos para o componente MovieCard */
-  .movie-card {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    width: 300px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .normal-title {
-    font-size: 1.5rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex: 1;
-    margin-bottom: -10px;
-  }
-  
-  .large-title {
-    font-size: 1.38rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex: 1;
-    margin-bottom: -10px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #141414;
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+}
 
-  p {
-    font-size: 0.45em;
-    color: rgba(0, 0, 0, 0.626);
-    font-family: 'Courier New', Courier, monospace;
-  }
+.button-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
 
-  img {
-    max-width: 100%;
-    max-height: 300px;
-    border-radius: 10px;
-  }
-  
-  /* Estilos para tamanhos de fonte do título
-  .small-title {
-    font-size: 16px;
-  }
-  
-  .medium-title {
-    font-size: 20px;
-  }
-  
-  .large-title {
-    font-size: 24px;
-  } */
-  
+button {
+  font-size: 16px;
+  padding: 20px 30px;
+  background-color: #e50914;
+  font-weight: bold;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #b0060f;
+}
+
+/* Botão adicional */
+.add-button {
+  background-color: #ff9500;
+}
+
+.add-button:hover {
+  background-color: #e28500;
+}
+
+/* Estilos para o componente MovieCard */
+.movie-card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.normal-title {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  margin-bottom: -10px;
+}
+
+.large-title {
+  font-size: 1.38rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  margin-bottom: -10px;
+}
+
+p {
+  font-size: 0.45em;
+  color: rgba(0, 0, 0, 0.626);
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+/* Formulário de adição de filmes */
+.add-form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  font-size: 0.6em;
+}
+
+.add-form h2 {
+  margin: 0 0 10px 0;
+  color: #141414;
+  font-size: 1.3em;
+}
+
+.add-form input,
+.add-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+.add-form button {
+  font-size: 16px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-form button:hover {
+  background-color: #b0060f;
+}

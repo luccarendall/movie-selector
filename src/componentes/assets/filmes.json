@@ -94,5 +94,185 @@
       "genre": "Ficção científica/Thriller",
       "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3zDDAOIi8fTnWsqkwfRCYGT3l0s.jpg",
       "link": "https://play.hbomax.com/feature/urn:hbo:feature:GYXcN2waDx8PDwgEAAAHC?utm_id=1100l5988&utm_source=gowatchit_gp&utm_medium=affiliate&clickref=1100lwWAUgWL"
+  },
+  {
+    "title": "Oppenheimer",
+    "genre": "Drama/Biografia",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ptpr0kGAckfQkJeJIt8st5dglvd.jpg",
+    "link": "https://www.primevideo.com/detail/Oppenheimer/0KSDGUBOVYF6O6NENQSVFTDXY8"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "genre": "Ficção Científica/Comédia",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+    "link": "https://www.primevideo.com/detail/Everything-Everywhere-All-at-Once/0FJHL3PUJQW3Q2AJYJW2O9AL8V"
+  },
+  {
+    "title": "CODA",
+    "genre": "Drama/Família",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4SrbXWOP3na8X1k6f1izwI3F7T.jpg",
+    "link": "https://tv.apple.com/br/movie/coda/umc.cmc.6d9m3z6dcwxh3b7ks79gdn7cc"
+  },
+  {
+    "title": "Nomadland",
+    "genre": "Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/66GUmWpTHgAjyp4aBSXy63PZTiC.jpg",
+    "link": "https://www.disneyplus.com/movies/nomadland/6HlWBVgN1Qjy"
+  },
+  {
+    "title": "Parasite",
+    "genre": "Thriller/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "link": "https://www.netflix.com/title/81220339"
+  },
+  {
+    "title": "Green Book",
+    "genre": "Drama/Biografia",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg",
+    "link": "https://www.netflix.com/title/81086896"
+  },
+  {
+    "title": "The Shape of Water",
+    "genre": "Fantasia/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iLYLADGA5oKGM92Ns1j9CDgk3iI.jpg",
+    "link": "https://www.disneyplus.com/movies/the-shape-of-water/5Hh1IC7Q9n4U"
+  },
+  {
+    "title": "Moonlight",
+    "genre": "Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/93N0S4l06kIILeM9vYoE2W7b3z2.jpg",
+    "link": "https://www.netflix.com/title/80121348"
+  },
+  {
+    "title": "Spotlight",
+    "genre": "Drama/Investigação",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sS8e8xwBSYbn3b9P0fRFK9R19OU.jpg",
+    "link": "https://www.starplus.com/movies/spotlight-segredos-revelados/1QjNypo9uWam"
+  },
+  {
+    "title": "Birdman",
+    "genre": "Comédia/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rSZs93P0LLxqlVEbI001UKoeCQC.jpg",
+    "link": "https://www.disneyplus.com/movies/birdman/7n9aFaP7zE7W"
+  },
+  {
+    "title": "12 Years a Slave",
+    "genre": "Drama/Histórico",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xXOM9jczFJ9M0gl4t7s1sA6rIlo.jpg",
+    "link": "https://www.disneyplus.com/movies/12-anos-de-escravidao/5cT4QPYw6i2F"
+  },
+  {
+    "title": "Argo",
+    "genre": "Thriller/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1vVHDhZP6vDLr6g0Bs6bqZz2MoS.jpg",
+    "link": "https://www.max.com/movies/argo"
+  },
+  {
+    "title": "The Artist",
+    "genre": "Romance/Comédia",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dlC0ed9Ugh3FzydnkBtV5lRXUu4.jpg",
+    "link": "https://www.starplus.com/movies/the-artist/6RHPQH5CpyJe"
+  },
+  {
+    "title": "The King's Speech",
+    "genre": "Drama/Histórico",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jxR3YdI2KjU1tV5R9V7WwP5U28w.jpg",
+    "link": "https://www.primevideo.com/detail/The-Kings-Speech/0IVQJYWWR0O4DY0L4DZ9RZKN5O"
+  },
+  {
+    "title": "The Hurt Locker",
+    "genre": "Guerra/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qZPiRRD88tLA3zB8wCNgWv3DRzt.jpg",
+    "link": "https://www.max.com/movies/the-hurt-locker"
+  },
+  {
+    "title": "Slumdog Millionaire",
+    "genre": "Drama/Romance",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iZ4sW0rveLBw8M6VwVnO7f0C4pe.jpg",
+    "link": "https://www.disneyplus.com/movies/slumdog-millionaire/5w0l86L9KjFh"
+  },
+  {
+    "title": "No Country for Old Men",
+    "genre": "Crime/Suspense",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+    "link": "https://www.max.com/movies/no-country-for-old-men"
+  },
+  {
+    "title": "The Departed",
+    "genre": "Crime/Thriller",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+    "link": "https://www.netflix.com/title/70044689"
+  },
+  {
+    "title": "Crash",
+    "genre": "Drama/Crime",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d79v4q60eK0yB47sPCzC9wLwn1g.jpg",
+    "link": "https://www.max.com/movies/crash"
+  },
+  {
+    "title": "Million Dollar Baby",
+    "genre": "Drama/Esporte",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jcf3iDdU0t4h3xOHOXOIrnHAAu0.jpg",
+    "link": "https://www.max.com/movies/million-dollar-baby"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Fantasia/Aventura",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "link": "https://www.max.com/feature/urn:hbo:feature:GV1n4XE8qg8GLQAACXvs"
+  },
+  {
+    "title": "Gladiator",
+    "genre": "Ação/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    "link": "https://www.netflix.com/title/60000929"
+  },
+  {
+    "title": "American Beauty",
+    "genre": "Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wby9315QzVKdW9BonAefg8jGTTb.jpg",
+    "link": "https://www.netflix.com/title/60000407"
+  },
+  {
+    "title": "Titanic",
+    "genre": "Romance/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    "link": "https://www.disneyplus.com/movies/titanic/2pHLzNzZSKyS"
+  },
+  {
+    "title": "Braveheart",
+    "genre": "Guerra/Histórico",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or1gBugydmjToAEq7OZY0owwFk.jpg",
+    "link": "https://www.paramountplus.com/movies/braveheart/6GQqv1AKMBaC"
+  },
+  {
+    "title": "Forrest Gump",
+    "genre": "Drama/Comédia",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+    "link": "https://www.netflix.com/title/60000724"
+  },
+  {
+    "title": "Schindler's List",
+    "genre": "Drama/Guerra",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c8Ass7acuOe4za6DhSattE359gr.jpg",
+    "link": "https://www.netflix.com/title/60011152"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "genre": "Suspense/Terror",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "link": "https://www.primevideo.com/detail/The-Silence-of-the-Lambs/0O2Y1R9ZLRV4E03KDG8HTJD4XL"
+  },
+  {
+    "title": "The Godfather",
+    "genre": "Crime/Drama",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jtVzlZ4o2NDMNbJx3eK1UxCH3Lk.jpg",
+    "link": "https://www.paramountplus.com/movies/the-godfather/3TCMV6X6W9vH"
+  },
+  {
+    "title": "Casablanca",
+    "genre": "Romance/Guerra",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6vSfpFQxz2mrJfisViva6fGp2.jpg",
+    "link": "https://www.amazon.com/Casablanca-Humphrey-Bogart/dp/B001EBV0OY"
   }
 ]

@@ -9,7 +9,13 @@ Foi uma forma simples de resolver um problema do dia a dia, e talvez ajude outra
 
 ## Funcionalidades
 
-- Exibição de um filme aleatório: Clicando no botão "Sortear novo Filme", a aplicação selecionará aleatoriamente um filme da lista e o exibirá na tela.
+- **Sortear filme aleatório:** Clique em **"Sortear novo Filme"** para exibir um filme da lista de forma aleatória.  
+- **Adicionar novo filme:** Clique em **"Adicionar Filme"**, preencha:
+  - Título do Filme  
+  - Gênero  
+  - URL da Imagem da Capa  
+  e clique em **💾 Salvar Filme**. O filme será adicionado à sua lista local (salvo no navegador).
+
 
 ## Acesse clicando aqui [Movie Selector](https://movie-selector-psi.vercel.app/)
 

@@ -1,6 +1,11 @@
 # Movie Recommendation Website
 
-Este é um projeto de um site de recomendação de filmes. O objetivo principal é ajudar as pessoas que, como eu, têm dificuldade na hora de escolher um filme quando têm um tempo livre. O site apresenta uma lista de filmes salvos e, quando solicitado, recomenda aleatoriamente um filme para assistir.
+Esse projeto nasceu de um problema simples: eu e minha namorada sempre demorávamos pra decidir qual filme assistir. Depois de tantas conversas sobre “o que vamos ver hoje?”, resolvi criar uma aplicação que fizesse isso por nós.
+
+O site guarda uma lista de filmes e sorteia um aleatoriamente pra ajudar na escolha. A lista padrão é compartilhada entre todos os usuários, mas os filmes que cada pessoa adiciona ficam salvos apenas no próprio navegador, usando localStorage. Assim, cada um tem sua lista personalizada sem precisar criar conta nem salvar nada online.
+
+Foi uma forma simples de resolver um problema do dia a dia, e talvez ajude outras pessoas que passam pela mesma indecisão.
+
 
 ## Funcionalidades
 
